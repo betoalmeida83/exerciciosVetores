@@ -16,6 +16,7 @@ public class Main {
         int[] vetor = new int[n];
 
         for(int i = 0; i < n; i++) {
+            System.out.print("Digite um numero: ");
             vetor[i] = input.nextInt();
         }
         System.out.println("NUMEROS NEGATIVOS:");

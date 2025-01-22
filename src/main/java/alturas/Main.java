@@ -17,6 +17,7 @@ public class Main {
 
         for(int i = 0; i < n; i++) {
             input.nextLine();
+            System.out.println("Dados da " + (i+1) + "a pessoa:");
             System.out.print("Nome: ");
             String nome = input.nextLine();
             System.out.print("Idade: ");
@@ -38,7 +39,7 @@ public class Main {
                 soma16++;
             }
         }
-        double porcentagem = (double) soma16/n * 100;
+        double porcentagem = (double) soma16/n * 100.0;
 
         System.out.println();
         System.out.printf("Altura média: %.2f%n", mediaAltura);
