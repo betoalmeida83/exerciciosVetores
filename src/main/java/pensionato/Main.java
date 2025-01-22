@@ -10,7 +10,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Quantos quartos serão alugados? ");
+        System.out.print("How many rooms will be rented? ");
         int n = input.nextInt();
 
         Quarto[] quartos = new Quarto[10];
@@ -33,10 +33,6 @@ public class Main {
                 System.out.println(quartos[i]);
             }
         }
-
-
-
-
 
         input.close();
 
